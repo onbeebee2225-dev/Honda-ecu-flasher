@@ -1,11 +1,3 @@
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-    repositories {
-        google()
-        mavenCentral()
-        maven { url 'https://jitpack.io' } // จำเป็นสำหรับ usb-serial-for-android
-    }
+plugins {
+    id 'com.android.application' version '8.5.0' apply false
 }
-
-rootProject.name = "Honda ECU Flasher"
-include ':app'
