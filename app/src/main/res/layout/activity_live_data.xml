@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ข้อมูลสดจาก ECU"
+        android:textSize="18sp"
+        android:paddingBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvRpm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="รอบเครื่อง (RPM): -" />
+
+    <TextView
+        android:id="@+id/tvCoolant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="อุณหภูมิน้ำ/หัวเครื่อง: - °C" />
+
+    <TextView
+        android:id="@+id/tvThrottle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="ตำแหน่งคันเร่ง: - %" />
+
+    <TextView
+        android:id="@+id/tvIgnition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="องศาจุดระเบิด: - °" />
+
+    <Button
+        android:id="@+id/btnStartLive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="เริ่มอ่านข้อมูลสด" />
+
+    <TextView
+        android:id="@+id/tvLiveStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textSize="12sp" />
+
+</LinearLayout>
